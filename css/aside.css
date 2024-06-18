@@ -11,8 +11,10 @@ aside {
 }
 
 .navigation {
+    display: grid;
     margin-left: 0px;
     margin-top: 60px;
     height: 10px;
+    gap: 40px;
 
 }
