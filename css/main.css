@@ -12,8 +12,7 @@ body {
  
 main {
     background-color: whitesmoke;
-    
-        
+    display: inline-block;         
           
 }
 
@@ -26,10 +25,51 @@ header {
 .panel {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 80 px;
-    background-color: aqua;
+    grid-template-columns: 1fr 1fr 1fr;   
+    gap: 50px;
+
+}
+
+.dashboard {
+    background-color: #219686;
     border-radius: 10px;
+    box-shadow: 0 50px 50px -40px #219686;
+    
+
+}
+
+.datasets {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px -40px #E7BD51;
+
+}
+
+.users {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px -40px #E67376;
+
+}
+
+.real-time {
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px -40px #A15EDF;
+
+}
+
+.billing {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px -40px #538BD5;
+
+}
+
+.campaign {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px -40px #EBAF59;
 
 }
 

@@ -1,12 +1,13 @@
 aside {
+    background-color: white;
     padding: 20px;
     padding-left: 20px;
 }
 
 .logo {
     margin-left: 20px;
-    margin-top: 10px;
-    height: 40px;
+    margin-top: 40px;
+    width: 40px;
        
 }
 
@@ -14,7 +15,21 @@ aside {
     display: grid;
     margin-left: 0px;
     margin-top: 60px;
-    height: 10px;
+    height: 5px;
     gap: 40px;
+    justify-content: center;
 
+}
+
+.link-active {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+
+.link {
+    padding: 10px;
+    border-radius: 10px;
+    
 }
