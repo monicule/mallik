@@ -5,9 +5,9 @@ aside {
 }
 
 .logo {
-    margin-left: 20px;
-    margin-top: 40px;
-    width: 40px;
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 35px;
        
 }
 
@@ -16,7 +16,7 @@ aside {
     margin-left: 0px;
     margin-top: 60px;
     height: 5px;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
 
 }
@@ -32,4 +32,8 @@ aside {
     padding: 10px;
     border-radius: 10px;
     
+}
+
+.aside-icons {
+    width: 20px;
 }
